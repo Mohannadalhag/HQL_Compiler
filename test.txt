@@ -1,0 +1,46 @@
+--create table j(a int,b int)
+--create table j(c int ,d int)
+--float h(){int i;return i;}
+--select MSISDN,log,count(distinct PRODUCTID) from test full outer join testt on test.MSISDN = testt.logdate group by MSISDN,log order by 1,2
+--select log,sum(PRODUCTID) from test group by log order by 1
+--select PRODUCTID,Log from test where test.LOG is not null
+--select LOGDATE,PRODUCTID, Count(Logdate) from test inner join testt on test.LOG == testt.LOGDATE inner join testtt on testt.LOGDATE == testtt.LOGDATE group by LOGDATE where logdate > 0 order by 1
+--select distinct LOGDATE , PRODUCTID from testt
+--select LOG ,sum(distinct EXPIRTIME), count(EXPIRTIME) from test group by LOG order by 1
+--select a,b,count(a) from j group by a,b having count(a)>0
+/***create table if not exists page_view(viewtime int,userid bigint ,page_url String)
+stored as textfile row format delimited fields terminated by ","**/
+--function a return int begin
+--select a,b from j
+--create table a(a int;b int)
+/*int a(){
+double a =0;
+return a;
+}*/
+/*int f()
+{
+    int x;
+    x=0;
+    y=0;
+    int x;
+    int h;
+    x = x+h;
+    table t;
+}
+void f(int x)
+{
+    {
+        int t=0;
+    }
+    int t = 0;
+    x=0;
+    float y;
+    return y;
+}
+*/
+int g(){
+int logdate;
+}
+int f(){
+    a = query select LOGdate,Count(EXPIRTIME) from test inner join testt on test.LOGdate == testt.logdate where test.logdate>3 group by LOGdate;
+}
